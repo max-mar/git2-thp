@@ -1,0 +1,56 @@
+body {
+  background-color: #EEEEEE
+  margin : 40px auto;
+  max-width: 650px;
+  line-height: 1.6;
+  font-family: Trebuchet, Verdana
+  font-size:18px;
+  color:#444;
+  padding : 0 10px;
+}
+* {
+  text-align: justify;
+}
+h1, h2, h3 {
+  line-height: 1.2;
+}
+em {
+  font-style: italic;
+}
+a:hover {
+  color: blue;
+  active: purple;
+}
+#container {
+  width: 1300px;
+}
+#Text {
+  width: 700px;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top : 45px;
+}
+#epilogue {
+  width: 900px;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-bottom: 45px;
+}
+#Line {
+width: 300px;
+height: 4px;
+border-bottom: 1px solid grey;
+margin-left: auto;
+margin-right: auto;
+}
+.custom {
+position: fixed;
+height: 300px;
+width: 400px;
+background-color: tomato;
+top: 50%;
+left: 50%;
+z-index: 10000;
+transform: translate(-50%, -50%);
+display: none;
+}
